@@ -1,0 +1,167 @@
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{float}
+\usepackage{caption}
+
+\definecolor{custompurple}{RGB}{200,20,200}
+\colorlet{customorange}{red!60!yellow}
+
+\title{Assignment 04 - Lists, Colors, Figures etc.}
+\author{Manasa Paulson}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	\tableofcontents
+	\newpage
+	
+	\section{Lists}
+	
+	Following are some technologies that can be used to format content:
+	
+	\begin{itemize}
+		\item \LaTeX
+		\item HTML (+CSS)
+		\item Markdown
+	\end{itemize}
+	
+	You would most likely use \LaTeX{} in the following scenarios:
+	
+	\begin{enumerate}
+		\item To write research papers.
+		\item To embed math equations within other software
+		(e.g. GDocs, HTML etc.).
+		\item To create your CV, project reports and presentations.
+	\end{enumerate}
+	
+	There are three main categories of electronic markup:
+	
+	\begin{description}
+		\item[Presentational] Used by traditional word-processing systems:
+		binary codes embedded within document text that produce the
+		WYSIWYG (what you see is what you get) effect.
+		e.g. Microsoft Word.
+		
+		\item[Procedural] Markup is embedded in text which provides
+		instructions for programs to process the text. e.g. TeX.
+		
+		\item[Descriptive] Markup is specifically used to label parts
+		of the document for what they are, rather than how they should
+		be processed. e.g. \LaTeX{}, HTML5.
+	\end{description}
+	
+	\section{Tables and Colors}
+	
+	Code for Table 1 is written in this subsection. However, it will
+	be rendered on a special page. The table is positioned at the
+	top of a page using the optional float argument.
+	
+	\begin{table}[!t]
+		\centering
+		\caption{Comparison of different technologies}
+		\label{tab:technologies}
+		
+		\begin{tabular}{|p{2.5cm}|p{2cm}|p{2cm}|p{3.5cm}|}
+			\hline
+			Language & Requires compilation & Output & Use \\
+			\hline
+			C/C++ & Yes & Executable & To make apps \\
+			\hline
+			\LaTeX & Yes & PDF & To make documents \\
+			\hline
+			HTML/CSS/JS & No & Webpage & To make websites \\
+			\hline
+			\multicolumn{1}{|c|}{2.5 cm} &
+			\multicolumn{1}{c|}{2 cm} &
+			\multicolumn{1}{c|}{2 cm} &
+			\multicolumn{1}{c|}{3.5 cm} \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	Colors can be represented using RGB values or hexadecimal
+	notation in HTML.
+	
+	A custom color is defined using 200 red, 20 green and 200 blue:
+	
+	\begin{verbatim}
+		\definecolor{custompurple}{RGB}{200,20,200}
+	\end{verbatim}
+	
+	Another custom color is defined using 60\% red and 40\% yellow:
+	
+	\begin{verbatim}
+		\colorlet{customorange}{red!60!yellow}
+	\end{verbatim}
+	
+	The following equation uses the custom colors:
+	
+	\[
+	\textcolor{custompurple}{T(n)}
+	=
+	\textcolor{customorange}{aT(n/b)}
+	+
+	\textcolor{custompurple}{f(n)}
+	\]
+	
+	\section{Figures}
+	
+	\subsection{Pictures: Rotation and Cropping}
+	
+	The MNIT logo is rotated using the graphicx package.
+	
+	\begin{figure}[H]
+		\centering
+		\rotatebox{90}{
+			\includegraphics[width=0.25\textwidth]
+			{"C:/Users/user/Downloads/mnitlogo.jpg"}
+		}
+		\caption{MNIT logo}
+		\label{fig:logo}
+	\end{figure}
+	
+	The MNIT building image is cropped using the trim and clip
+	options. The top portion of the image is cropped to remove
+	the sky, and the image is fitted to the text width.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[
+		width=\textwidth,
+		trim=0 0 0 100,
+		clip
+		]{"C:/Users/user/Downloads/building.jpg"}
+		\caption{This is a floating image and can appear anywhere.}
+		\label{fig:building}
+	\end{figure}
+	
+	\subsection{Multiple Images}
+	
+	This subsection includes two minipages with equal width.
+	
+	\begin{figure}[H]
+		\centering
+		
+		\begin{minipage}{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]
+			{"C:/Users/user/Downloads/mnitlogo.jpg"}
+			\captionof{figure}{This is the first minipage}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]
+			{"C:/Users/user/Downloads/building.jpg"}
+			\captionof{figure}{This is the second minipage}
+		\end{minipage}
+		
+	\end{figure}
+	
+\end{document}
