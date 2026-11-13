@@ -1,0 +1,160 @@
+
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{hyperref}
+
+% Page settings
+\geometry{margin=1in}
+\definecolor{cream}{HTML}{F7F3E8}
+\pagecolor{cream}
+
+% Fonts
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{Courier New}
+
+% Section numbering in alphabets
+\renewcommand{\thesection}{\Alph{section}}
+
+% Paragraph settings
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Create index
+\makeindex
+
+% Saveboxes
+\newsavebox{\boxone}
+\newsavebox{\boxtwo}
+\newsavebox{\boxthree}
+
+\begin{document}
+	
+	%---------------- SECTION A ----------------
+	
+	\section{Fonts and Background}
+	
+	\begin{trivlist}
+		
+		\item This text is written in DejaVu Serif, the main font.
+		
+		\item \textsf{This text is written in DejaVu Sans, the sans-serif font.}
+		
+		\item \texttt{This text is written in Courier, the monospace font.}
+		
+	\end{trivlist}
+	
+	\index{background}
+	
+	%---------------- SECTION B ----------------
+	
+	\section{Spacing}
+	
+	This is the first line of a paragraph.
+	This is another line, but not another paragraph.
+	
+	\vspace{1cm}
+	
+	This paragraph starts 1cm below.
+	
+	\vspace{0.5cm}
+	
+	This is another paragraph.
+	Incomprehensibilities and antidisestablishmentarianisms
+	are two long words.
+	
+	\vspace{0.5cm}
+	
+	\begin{samepage}
+		\hyphenpenalty=10000
+		\exhyphenpenalty=10000
+		
+		Thisisanotherparagraph.
+		Incomprehensibilitiesandantidisestablishmentarianisms
+		are two long words.
+	\end{samepage}
+	
+	% Leave space for Section C
+	\newpage
+	\vspace*{5cm}
+	
+	%---------------- SECTION D ----------------
+	
+	\setcounter{section}{3}
+	
+	\section{Numbering}
+	
+	% Ellipse equation first
+	\begin{equation}
+		\frac{x^2}{a^2}+\frac{y^2}{b^2}=1
+	\end{equation}
+	
+	% Circle equation second
+	\begin{equation}
+		x^2+y^2=1
+	\end{equation}
+	
+	Equation 2 denotes a circle.
+	
+	\index{numbering}
+	
+	%---------------- SECTION E ----------------
+	
+	\section{Boxes and Lines}
+	
+	% First savebox
+	\savebox{\boxone}{This message is written in a savebox.}
+	
+	% Second savebox
+	\savebox{\boxtwo}{This message is written in a savebox.}
+	
+	% Third savebox
+	\savebox{\boxthree}{This message is written in a savebox.}
+	
+	\usebox{\boxone}
+	
+	\vspace{0.3cm}
+	
+	\usebox{\boxtwo}
+	
+	\vspace{0.3cm}
+	
+	\usebox{\boxthree}
+	
+	\vspace{0.5cm}
+	
+	\parbox{5cm}{
+		This message is wrapped in a 5cm paragraph box.
+	}
+	
+	\vspace{0.5cm}
+	
+	Note that these boxes are used for highlighting and layout design.
+	
+	\index{savebox}
+	
+	%---------------- BIBLIOGRAPHY ----------------
+	
+	\newpage
+	
+	\section*{References}
+	
+	\bibliographystyle{plain}
+	\bibliography{references}
+	
+	%---------------- INDEX ----------------
+	
+	\newpage
+	
+	\printindex
+	
+\end{document}

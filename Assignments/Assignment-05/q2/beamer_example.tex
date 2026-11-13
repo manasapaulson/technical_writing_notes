@@ -1,0 +1,86 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usetheme{Madrid}
+\usepackage{amsmath,amssymb}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+\title{Mathematical Typesetting in LaTeX}
+\subtitle{Mathematical Expressions and Tables}
+\author{Manasa Paulson}
+\institute{MNIT Jaipur}
+\date{Technical Writing Lab}
+
+\begin{document}
+	
+	% Slide 1: Title
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	% Slide 2: Mathematical expressions
+	\begin{frame}{Mathematical Expressions}
+		LaTeX provides environments to present mathematical content clearly.
+		
+		\vspace{0.3cm}
+		\begin{block}{Piecewise Function}
+			\[
+			f(x)=\begin{cases}
+				x^2+2x+1, & x<0,\\
+				\sqrt{x+1}, & 0\leq x<4,\\
+				\dfrac{x^2-1}{x-1}, & x\geq 4.
+			\end{cases}
+			\]
+		\end{block}
+		
+		\begin{block}{Matrix Representation}
+			\[
+			A=\begin{bmatrix}
+				a_{11} & a_{12}\\
+				a_{21} & a_{22}
+			\end{bmatrix}
+			\]
+		\end{block}
+	\end{frame}
+	
+	% Slide 3: Tables
+	\begin{frame}{Creating Tables in LaTeX}
+		Tables can be formatted using alignment, borders, merged cells and colour.
+		
+		\vspace{0.25cm}
+		\begin{center}
+			\rowcolors{2}{blue!8}{white}
+			\begin{tabular}{lcc}
+				\rowcolor{blue!25}
+				\textbf{Student} & \textbf{Midterm} & \textbf{Final}\\
+				Amit & 78 & 89\\
+				Neha & 85 & 92\\
+				Rahul & 91 & 94\\
+			\end{tabular}
+		\end{center}
+		
+		\vspace{0.25cm}
+		\begin{itemize}
+			\item \texttt{tabular} creates rows and columns.
+			\item \texttt{\textbackslash multicolumn} and \texttt{\textbackslash multirow} merge cells.
+			\item \texttt{xcolor} adds colour to rows and cells.
+			\item \texttt{booktabs} helps create clean, professional tables.
+		\end{itemize}
+	\end{frame}
+	
+	% Slide 4: Conclusion
+	\begin{frame}{Conclusion}
+		\begin{itemize}
+			\item Mathematical environments help present equations, matrices and functions systematically.
+			\item Table environments organise data in a clear and readable format.
+			\item Packages extend LaTeX with features such as colour, merged cells and professional table rules.
+		\end{itemize}
+		
+		\vfill
+		\begin{center}
+			\Large\textbf{Thank You!}
+		\end{center}
+	\end{frame}
+	
+\end{document}
