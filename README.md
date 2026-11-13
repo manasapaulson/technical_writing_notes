@@ -1,20 +1,21 @@
-# Technical Writing – Course Documentation
+Technical Writing – Course Documentation
 
-Welcome to the **Technical Writing Documentation Repository**!
+Welcome to the Technical Writing Documentation Repository!
 
-This repository contains structured notes, explanations, practical examples, command references, and learning resources based on the concepts covered in the Technical Writing (TW) course at **Malaviya National Institute of Technology (MNIT), Jaipur**.
+This repository contains structured notes, explanations, practical examples, command references, and learning resources based on the concepts covered in the Technical Writing (TW) course at Malaviya National Institute of Technology (MNIT), Jaipur.
 
 The purpose of this repository is to document the tools and techniques learned throughout the course and provide a useful reference for understanding and applying them in practical work.
 
 ---
 
-## Topics Covered
+Topics Covered
 
-### 1. LaTeX
+1. LaTeX
 
 Documentation on LaTeX, a typesetting system used for creating well-formatted technical and academic documents.
 
 Topics include:
+
 - Introduction to LaTeX and its applications.
 - Basic document structure and syntax.
 - Document classes and packages.
@@ -23,11 +24,12 @@ Topics include:
 - Inserting images and managing references.
 - Compiling and generating PDF documents.
 
-### 2. Beamer
+2. Beamer
 
 Documentation on creating professional presentations using the LaTeX Beamer document class.
 
 Topics include:
+
 - Introduction to Beamer.
 - Creating presentations and frames.
 - Themes, colours and layouts.
@@ -36,11 +38,12 @@ Topics include:
 - Overlays and presentation effects.
 - Compiling Beamer presentations.
 
-### 3. Doxygen
+3. Doxygen
 
 Documentation on Doxygen, a tool used to generate software documentation from specially formatted comments in source code.
 
 Topics include:
+
 - Introduction to Doxygen.
 - Installation and configuration.
 - Documentation comments and commands.
@@ -48,11 +51,12 @@ Topics include:
 - Generating HTML documentation.
 - Understanding generated documentation.
 
-### 4. Google Docs
+4. Google Docs
 
 Documentation on using Google Docs for creating, editing, formatting and collaborating on documents.
 
 Topics include:
+
 - Introduction to Google Docs.
 - Creating and formatting documents.
 - Styles, headings and page layout.
@@ -61,11 +65,12 @@ Topics include:
 - Sharing and real-time collaboration.
 - Version history and document management.
 
-### 5. Git
+5. Git
 
 Documentation on Git, a distributed version control system used to track changes in files and manage project history.
 
 Topics include:
+
 - Introduction to version control.
 - Git installation and configuration.
 - Creating and initializing repositories.
@@ -77,11 +82,12 @@ Topics include:
 - Reverting and restoring changes.
 - Git command reference with practical examples.
 
-### 6. GitHub
+6. GitHub
 
 Documentation on GitHub, a platform for hosting Git repositories and collaborating on projects.
 
 Topics include:
+
 - Introduction to GitHub.
 - Creating and managing repositories.
 - Connecting local repositories to GitHub.
@@ -93,14 +99,13 @@ Topics include:
 
 ---
 
-## Repository Structure
+Repository Structure
 
 The repository is organised into separate folders for easy navigation and maintenance.
 
-```text
-Technical-Writing-Notes/
+technical_writing_notes/
 │
-├── 01-LaTeX/
+├── 01-LaTex/
 │   └── README.md
 │
 ├── 02-Beamer/
@@ -122,13 +127,12 @@ Technical-Writing-Notes/
 │   └── Screenshots and supporting resources
 │
 └── README.md
-```
 
-Each topic has its own documentation file containing relevant concepts, syntax, examples and practical instructions. The `assets` folder is used to store screenshots and other supporting resources.
+Each topic has its own documentation file containing relevant concepts, syntax, examples and practical instructions. The "assets" folder is used to store screenshots and other supporting resources.
 
 ---
 
-## Learning Objectives
+Learning Objectives
 
 Through this documentation, the following learning objectives are addressed:
 
@@ -143,43 +147,41 @@ Through this documentation, the following learning objectives are addressed:
 
 ---
 
-## Tools and Technologies
+Tools and Technologies
 
-The repository covers the following tools and platforms:
-
-- **LaTeX** – Technical document preparation.
-- **Beamer** – Presentation creation.
-- **Doxygen** – Source-code documentation.
-- **Google Docs** – Online document creation and collaboration.
-- **Git** – Version control.
-- **GitHub** – Repository hosting and collaboration.
-- **Visual Studio Code** – Code editing and Git command execution.
+- LaTeX – Technical document preparation.
+- Beamer – Presentation creation.
+- Doxygen – Source-code documentation.
+- Google Docs – Online document creation and collaboration.
+- Git – Version control.
+- GitHub – Repository hosting and collaboration.
+- Visual Studio Code – Code editing and Git command execution.
 
 ---
 
-## How to Use This Repository
+How to Use This Repository
 
 1. Clone or download this repository.
 2. Open the repository in Visual Studio Code or any text editor.
 3. Navigate to the folder of the topic you want to study.
-4. Open its `README.md` file.
+4. Open its "README.md" file.
 5. Follow the explanations, examples and command references.
 6. Practise the commands and procedures wherever applicable.
 
 ---
 
-## Version Control
+Version Control
 
 This repository is maintained using Git and GitHub. Changes and additions are tracked through commits to maintain an organised record of the documentation's development.
 
 ---
 
-## Author
+Author
 
-**Manasa Paulson**  
-Department of Computer Science and Engineering  
+Manasa Paulson
+Department of Computer Science and Engineering
 Malaviya National Institute of Technology (MNIT), Jaipur
 
 ---
 
-*This repository is part of the learning and practical work undertaken as a component of the Technical Writing course.*
+This repository is part of the learning and practical work undertaken as a component of the Technical Writing course.
