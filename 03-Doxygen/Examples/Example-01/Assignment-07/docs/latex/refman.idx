@@ -1,0 +1,35 @@
+\indexentry{Calculator and Logger Project@{Calculator and Logger Project}|hyperpage}{1}
+\indexentry{Todo List@{Todo List}|hyperpage}{3}
+\indexentry{CalculationEngine@{CalculationEngine}|hyperpage}{9}
+\indexentry{CalculationEngine@{CalculationEngine}!CalculationEngine@{CalculationEngine}|hyperpage}{10}
+\indexentry{CalculationEngine@{CalculationEngine}!CalculationEngine@{CalculationEngine}|hyperpage}{10}
+\indexentry{CalculationEngine@{CalculationEngine}!add@{add}|hyperpage}{10}
+\indexentry{add@{add}!CalculationEngine@{CalculationEngine}|hyperpage}{10}
+\indexentry{CalculationEngine@{CalculationEngine}!multiply@{multiply}|hyperpage}{10}
+\indexentry{multiply@{multiply}!CalculationEngine@{CalculationEngine}|hyperpage}{10}
+\indexentry{CalculationEngine@{CalculationEngine}!power@{power}|hyperpage}{10}
+\indexentry{power@{power}!CalculationEngine@{CalculationEngine}|hyperpage}{10}
+\indexentry{CalculationEngine@{CalculationEngine}!subtract@{subtract}|hyperpage}{11}
+\indexentry{subtract@{subtract}!CalculationEngine@{CalculationEngine}|hyperpage}{11}
+\indexentry{CalculationEngine@{CalculationEngine}!logger@{logger}|hyperpage}{11}
+\indexentry{logger@{logger}!CalculationEngine@{CalculationEngine}|hyperpage}{11}
+\indexentry{Logger@{Logger}|hyperpage}{12}
+\indexentry{Logger@{Logger}!Logger@{Logger}|hyperpage}{12}
+\indexentry{Logger@{Logger}!Logger@{Logger}|hyperpage}{12}
+\indexentry{Logger@{Logger}!log@{log}|hyperpage}{13}
+\indexentry{log@{log}!Logger@{Logger}|hyperpage}{13}
+\indexentry{Logger@{Logger}!currentLevel@{currentLevel}|hyperpage}{13}
+\indexentry{currentLevel@{currentLevel}!Logger@{Logger}|hyperpage}{13}
+\indexentry{CalculationEngine.h@{CalculationEngine.h}|hyperpage}{15}
+\indexentry{Logger.h@{Logger.h}|hyperpage}{16}
+\indexentry{Logger.h@{Logger.h}!LogLevel@{LogLevel}|hyperpage}{17}
+\indexentry{LogLevel@{LogLevel}!Logger.h@{Logger.h}|hyperpage}{17}
+\indexentry{INFO@{INFO}!Logger.h@{Logger.h}|hyperpage}{17}
+\indexentry{Logger.h@{Logger.h}!INFO@{INFO}|hyperpage}{17}
+\indexentry{WARNING@{WARNING}!Logger.h@{Logger.h}|hyperpage}{17}
+\indexentry{Logger.h@{Logger.h}!WARNING@{WARNING}|hyperpage}{17}
+\indexentry{ERROR@{ERROR}!Logger.h@{Logger.h}|hyperpage}{17}
+\indexentry{Logger.h@{Logger.h}!ERROR@{ERROR}|hyperpage}{17}
+\indexentry{main.cpp@{main.cpp}|hyperpage}{18}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{18}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{18}

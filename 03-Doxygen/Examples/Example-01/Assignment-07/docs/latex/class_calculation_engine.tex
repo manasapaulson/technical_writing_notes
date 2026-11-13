@@ -1,0 +1,159 @@
+\doxysection{Calculation\+Engine Class Reference}
+\hypertarget{class_calculation_engine}{}\label{class_calculation_engine}\index{CalculationEngine@{CalculationEngine}}
+
+
+Performs basic mathematical operations.  
+
+
+
+
+{\ttfamily \+\#include $<$Calculation\+Engine.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_calculation_engine_a1c93a0bf2fbb533b79f43fde43b89b1b}{Calculation\+Engine}} (\doxymbox{\hyperlink{class_logger}{Logger}} \&logger)
+\begin{DoxyCompactList}\small\item\em Creates a \doxylink{class_calculation_engine}{Calculation\+Engine} object. \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_calculation_engine_a0f1b473e3df89052bca0401c4a219f09}{add}} (double a, double b)
+\begin{DoxyCompactList}\small\item\em Adds two numbers. \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_calculation_engine_a5cb23d35ab168226efe2d2e08175b6e3}{subtract}} (double a, double b)
+\begin{DoxyCompactList}\small\item\em Subtracts the second number from the first. \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_calculation_engine_af69729cf00bbd3e26c38b67fb05550d8}{multiply}} (double a, double b)
+\begin{DoxyCompactList}\small\item\em Multiplies two numbers. \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_calculation_engine_aa9b9f4e40d6af5ec2dc7a588eb33f65e}{power}} (double base, double exponent)
+\begin{DoxyCompactList}\small\item\em Calculates the power of a number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_logger}{Logger}} \& \doxymbox{\hyperlink{class_calculation_engine_a9962b6b126f79993e341e67faa0e11dc}{logger}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Performs basic mathematical operations. 
+
+This class provides arithmetic operations such as addition, subtraction, multiplication and exponentiation. It uses the \doxylink{class_logger}{Logger} class to display information about calculations.
+
+\begin{DoxyRefDesc}{Todo}
+\item[\doxymbox{\hyperlink{todo__todo000001}{Todo}}]Add input validation for invalid mathematical operations. \end{DoxyRefDesc}
+
+
+\label{class_calculation_engine_doc-constructors}
+\Hypertarget{class_calculation_engine_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_calculation_engine_a1c93a0bf2fbb533b79f43fde43b89b1b}\index{CalculationEngine@{CalculationEngine}!CalculationEngine@{CalculationEngine}}
+\index{CalculationEngine@{CalculationEngine}!CalculationEngine@{CalculationEngine}}
+\doxysubsubsection{\texorpdfstring{CalculationEngine()}{CalculationEngine()}}
+{\footnotesize\ttfamily \label{class_calculation_engine_a1c93a0bf2fbb533b79f43fde43b89b1b} 
+Calculation\+Engine::\+\+Calculation\+Engine (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_logger}{Logger}} \&}]{logger}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Creates a \doxylink{class_calculation_engine}{Calculation\+Engine} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em logger} & Reference to the \doxylink{class_logger}{Logger} object. \\
+\hline
+\end{DoxyParams}
+
+
+\label{class_calculation_engine_doc-func-members}
+\Hypertarget{class_calculation_engine_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_calculation_engine_a0f1b473e3df89052bca0401c4a219f09}\index{CalculationEngine@{CalculationEngine}!add@{add}}
+\index{add@{add}!CalculationEngine@{CalculationEngine}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \label{class_calculation_engine_a0f1b473e3df89052bca0401c4a219f09} 
+double Calculation\+Engine::\+add (\begin{DoxyParamCaption}\item[{double}]{a}{, }\item[{double}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adds two numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & First number. \\
+\hline
+{\em b} & Second number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The sum of the two numbers. 
+\end{DoxyReturn}
+\Hypertarget{class_calculation_engine_af69729cf00bbd3e26c38b67fb05550d8}\index{CalculationEngine@{CalculationEngine}!multiply@{multiply}}
+\index{multiply@{multiply}!CalculationEngine@{CalculationEngine}}
+\doxysubsubsection{\texorpdfstring{multiply()}{multiply()}}
+{\footnotesize\ttfamily \label{class_calculation_engine_af69729cf00bbd3e26c38b67fb05550d8} 
+double Calculation\+Engine::\+multiply (\begin{DoxyParamCaption}\item[{double}]{a}{, }\item[{double}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Multiplies two numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & First number. \\
+\hline
+{\em b} & Second number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The product of the two numbers. 
+\end{DoxyReturn}
+\Hypertarget{class_calculation_engine_aa9b9f4e40d6af5ec2dc7a588eb33f65e}\index{CalculationEngine@{CalculationEngine}!power@{power}}
+\index{power@{power}!CalculationEngine@{CalculationEngine}}
+\doxysubsubsection{\texorpdfstring{power()}{power()}}
+{\footnotesize\ttfamily \label{class_calculation_engine_aa9b9f4e40d6af5ec2dc7a588eb33f65e} 
+double Calculation\+Engine::\+power (\begin{DoxyParamCaption}\item[{double}]{base}{, }\item[{double}]{exponent}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Calculates the power of a number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base} & The base value. \\
+\hline
+{\em exponent} & The exponent value. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The result of raising base to exponent. 
+\end{DoxyReturn}
+\Hypertarget{class_calculation_engine_a5cb23d35ab168226efe2d2e08175b6e3}\index{CalculationEngine@{CalculationEngine}!subtract@{subtract}}
+\index{subtract@{subtract}!CalculationEngine@{CalculationEngine}}
+\doxysubsubsection{\texorpdfstring{subtract()}{subtract()}}
+{\footnotesize\ttfamily \label{class_calculation_engine_a5cb23d35ab168226efe2d2e08175b6e3} 
+double Calculation\+Engine::\+subtract (\begin{DoxyParamCaption}\item[{double}]{a}{, }\item[{double}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Subtracts the second number from the first. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & First number. \\
+\hline
+{\em b} & Second number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The difference between the two numbers. 
+\end{DoxyReturn}
+
+
+\label{class_calculation_engine_doc-variable-members}
+\Hypertarget{class_calculation_engine_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_calculation_engine_a9962b6b126f79993e341e67faa0e11dc}\index{CalculationEngine@{CalculationEngine}!logger@{logger}}
+\index{logger@{logger}!CalculationEngine@{CalculationEngine}}
+\doxysubsubsection{\texorpdfstring{logger}{logger}}
+{\footnotesize\ttfamily \label{class_calculation_engine_a9962b6b126f79993e341e67faa0e11dc} 
+\doxymbox{\hyperlink{class_logger}{Logger}}\& Calculation\+Engine::\+logger\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{_calculation_engine_8h}{Calculation\+Engine.\+h}}\end{DoxyCompactItemize}
