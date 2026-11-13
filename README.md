@@ -1,156 +1,93 @@
-Technical Writing – Course Documentation
+# Technical Writing Lab
 
-Welcome to the Technical Writing Documentation Repository!
+This repository contains the practical work, assignments, examples, and documentation completed as part of the Technical Writing Lab.
 
-This repository contains structured notes, explanations, practical examples, command references, and learning resources based on the concepts covered in the Technical Writing (TW) course at Malaviya National Institute of Technology (MNIT), Jaipur.
+The repository demonstrates the use of technical documentation tools and typesetting systems, including LaTeX, Beamer, Doxygen, Google Docs, Git, and GitHub.
 
-The purpose of this repository is to document the tools and techniques learned throughout the course and provide a useful reference for understanding and applying them in practical work.
+## Tools and Technologies Used
 
----
+- **LaTeX:** Document preparation, mathematical typesetting, formatting, tables, figures, and bibliographies.
+- **Beamer:** Creating presentations using LaTeX.
+- **Doxygen:** Generating HTML and PDF documentation from source code.
+- **Google Docs:** Creating, formatting, sharing, and managing documents.
+- **Git:** Version control and tracking changes.
+- **GitHub:** Hosting and managing the project repository.
 
-Topics Covered
+## Repository Structure
 
-1. LaTeX
+```text
+technical_writing_notes/
+│
+├── 01-Latex/
+│
+├── 02-Beamer/
+│   └── Example/
+│
+├── 03-Doxygen/
+│   └── Examples/
+│       └── Example-01/
+│           └── Assignment-07/
+│
+├── 04-Google-Docs/
+│   └── Examples/
+│       └── Example-01/
+│
+├── 05-Git/
+│
+├── 06-Github/
+│
+├── assets/
+│
+├── Assignments/
+│   ├── Assignment-01/
+│   ├── Assignment-02/
+│   ├── Assignment-03/
+│   ├── Assignment-04/
+│   ├── Assignment-05/
+│   ├── Assignment-06/
+│   └── Assignment-07/
+│
+└── README.md
+```
 
-Documentation on LaTeX, a typesetting system used for creating well-formatted technical and academic documents.
+## Assignments
 
-Topics include:
+Each assignment is organised into folders containing the relevant source files, generated outputs, and screenshots wherever applicable.
 
-- Introduction to LaTeX and its applications.
-- Basic document structure and syntax.
-- Document classes and packages.
-- Sections, subsections and formatting.
-- Lists, tables and mathematical equations.
-- Inserting images and managing references.
-- Compiling and generating PDF documents.
+| Assignment | Topic |
+|---|---|
+| Assignment 01 | Introduction to LaTeX and document structure |
+| Assignment 02 | Mathematical typesetting in LaTeX |
+| Assignment 03 | Additional LaTeX practical work |
+| Assignment 04 | Lists, Colors, Figures, Tables and Image Formatting |
+| Assignment 05 | LaTeX practical work |
+| Assignment 06 | Document Structure, Fonts, Background, Spacing, Numbering, Boxes, Index and Bibliography |
+| Assignment 07 | Doxygen Documentation |
 
-2. Beamer
+## Practical Examples
 
-Documentation on creating professional presentations using the LaTeX Beamer document class.
+### 1. LaTeX
+Contains examples and practical work demonstrating document preparation and typesetting using LaTeX.
 
-Topics include:
+### 2. Beamer
+Contains a sample presentation created using the Beamer document class.
 
-- Introduction to Beamer.
-- Creating presentations and frames.
-- Themes, colours and layouts.
-- Adding text, images and tables.
-- Blocks and columns.
-- Overlays and presentation effects.
-- Compiling Beamer presentations.
+### 3. Doxygen
+Contains a documented sample C++ project, Doxygen configuration, generated HTML documentation, and PDF output.
 
-3. Doxygen
+### 4. Google Docs
+Contains a practical example demonstrating document formatting, tables, lists, page numbering, and version history.
 
-Documentation on Doxygen, a tool used to generate software documentation from specially formatted comments in source code.
+## Version Control
 
-Topics include:
+Git is used to track changes and maintain the development history of the repository. GitHub is used to host the repository and manage the uploaded files.
 
-- Introduction to Doxygen.
-- Installation and configuration.
-- Documentation comments and commands.
-- Documenting functions, classes and files.
-- Generating HTML documentation.
-- Understanding generated documentation.
+## Author
 
-4. Google Docs
-
-Documentation on using Google Docs for creating, editing, formatting and collaborating on documents.
-
-Topics include:
-
-- Introduction to Google Docs.
-- Creating and formatting documents.
-- Styles, headings and page layout.
-- Tables, images, headers and footers.
-- Comments and suggestions.
-- Sharing and real-time collaboration.
-- Version history and document management.
-
-5. Git
-
-Documentation on Git, a distributed version control system used to track changes in files and manage project history.
-
-Topics include:
-
-- Introduction to version control.
-- Git installation and configuration.
-- Creating and initializing repositories.
-- Working directory and staging area.
-- Adding, committing and tracking changes.
-- Viewing commit history and comparing changes.
-- Branching, switching and merging.
-- Resolving merge conflicts.
-- Reverting and restoring changes.
-- Git command reference with practical examples.
-
-6. GitHub
-
-Documentation on GitHub, a platform for hosting Git repositories and collaborating on projects.
-
-Topics include:
-
-- Introduction to GitHub.
-- Creating and managing repositories.
-- Connecting local repositories to GitHub.
-- Cloning, pushing, pulling and fetching.
-- Branches and pull requests.
-- Forking and collaborative development.
-- Issues, tags and releases.
-- Repository management and best practices.
+**Manasa Paulson**  
+Department of Computer Science and Engineering  
+Malaviya National Institute of Technology, Jaipur
 
 ---
 
-
-
-Learning Objectives
-
-Through this documentation, the following learning objectives are addressed:
-
-- Understand the purpose and applications of different technical writing tools.
-- Create structured technical documents using LaTeX.
-- Develop presentations using Beamer.
-- Generate source-code documentation using Doxygen.
-- Create and collaborate on documents using Google Docs.
-- Understand version control and practise Git commands.
-- Manage repositories and collaborate using GitHub.
-- Maintain organised and well-documented technical work.
-
----
-
-Tools and Technologies
-
-- LaTeX – Technical document preparation.
-- Beamer – Presentation creation.
-- Doxygen – Source-code documentation.
-- Google Docs – Online document creation and collaboration.
-- Git – Version control.
-- GitHub – Repository hosting and collaboration.
-- Visual Studio Code – Code editing and Git command execution.
-
----
-
-How to Use This Repository
-
-1. Clone or download this repository.
-2. Open the repository in Visual Studio Code or any text editor.
-3. Navigate to the folder of the topic you want to study.
-4. Open its "README.md" file.
-5. Follow the explanations, examples and command references.
-6. Practise the commands and procedures wherever applicable.
-
----
-
-Version Control
-
-This repository is maintained using Git and GitHub. Changes and additions are tracked through commits to maintain an organised record of the documentation's development.
-
----
-
-Author
-
-Manasa Paulson
-Department of Computer Science and Engineering
-Malaviya National Institute of Technology (MNIT), Jaipur
-
----
-
-This repository is part of the learning and practical work undertaken as a component of the Technical Writing course.
+*Technical Writing Lab – Practical Work and Assignments*
