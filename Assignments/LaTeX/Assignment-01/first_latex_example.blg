@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: first_latex_example.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: agu.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Database file #1: physics.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Warning--empty journal in einstein1905
+Warning--empty journal in schrodinger1926
+You've used 2 entries,
+            3075 wiz_defined-function locations,
+            1070 strings with 9445 characters,
+and the built_in function-call counts, 721 in all, are:
+= -- 40
+> -- 22
+< -- 2
++ -- 8
+- -- 6
+* -- 50
+:= -- 102
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 2
+cite$ -- 8
+duplicate$ -- 72
+empty$ -- 67
+format.name$ -- 8
+if$ -- 133
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 14
+newline$ -- 13
+num.names$ -- 8
+pop$ -- 40
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 27
+stack$ -- 0
+substring$ -- 6
+swap$ -- 22
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18
+warning$ -- 2
+while$ -- 6
+width$ -- 0
+write$ -- 24
+(There were 2 warnings)

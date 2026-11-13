@@ -1,0 +1,84 @@
+
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{amsthm}
+\usepackage{natbib}
+\usepackage{amsmath}
+
+\newtheorem{theorem}{Theorem}[section]
+
+\begin{document}
+	
+	\title{My First LaTeX Document}
+	\author{Manasa Paulson}
+	\date{\today}
+	
+	\maketitle
+	
+	\tableofcontents
+	
+	\newpage
+	
+	\section{Introduction}\label{intro}
+	
+	Words are separated by one or more spaces. Paragraphs are
+	separated by one or more blank lines. The output is not affected
+	by adding extra spaces or extra blank lines to the input file.
+	
+	{\large $\beta = a^2 + b\times c + 2$}
+	
+	\subsection{Background}
+	
+	In Section \ref{intro}, double quotes are typed like this:
+	``quoted text''.
+	
+	Single quotes are typed like this: `single-quoted text'.
+	
+	\textbf{Long dashes} are typed as three dash characters---like this.
+	
+	Italic text is typed like this: \textit{This is italic text}.
+	
+	Bold text is typed like this: \textbf{This is bold text}.
+	
+	\subsection{A Numbered List}
+	
+	\begin{enumerate}
+		\item First item
+		\item Second item
+		\item Third item
+	\end{enumerate}
+	
+	\begin{theorem}\label{T1}
+		There are infinitely many prime numbers.
+	\end{theorem}
+	
+	In Theorem \ref{T1}, we state that there are infinitely many
+	prime numbers.
+	
+	\section{Science!}
+	
+	Einstein's famous mass-energy equivalence equation is
+	\(E = mc^2\). This equation describes the relationship between
+	mass and energy \citep{einstein1905}.
+	
+	\section{Equations and Cross-References}
+	
+	The time-dependent Schrödinger equation is given by
+	Equation \ref{eq:schrodinger}. Schrödinger's 1926 paper
+	discusses the foundations of wave mechanics
+	\citep{schrodinger1926}.
+	
+	\begin{equation}
+		i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t)
+		=
+		\left[
+		-\frac{\hbar^2}{2\mu}\nabla^2
+		+ V(\mathbf{r},t)
+		\right]\Psi(\mathbf{r},t)
+		\label{eq:schrodinger}
+	\end{equation}
+	
+	\bibliographystyle{agu}
+	\bibliography{physics}
+	
+\end{document}
