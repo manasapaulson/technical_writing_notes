@@ -99,38 +99,7 @@ Topics include:
 
 ---
 
-Repository Structure
 
-The repository is organised into separate folders for easy navigation and maintenance.
-
-technical_writing_notes/
-│
-├── 01-LaTex/
-│   └── README.md
-│
-├── 02-Beamer/
-│   └── README.md
-│
-├── 03-Doxygen/
-│   └── README.md
-│
-├── 04-Google-Docs/
-│   └── README.md
-│
-├── 05-Git/
-│   └── README.md
-│
-├── 06-GitHub/
-│   └── README.md
-│
-├── assets/
-│   └── Screenshots and supporting resources
-│
-└── README.md
-
-Each topic has its own documentation file containing relevant concepts, syntax, examples and practical instructions. The "assets" folder is used to store screenshots and other supporting resources.
-
----
 
 Learning Objectives
 
